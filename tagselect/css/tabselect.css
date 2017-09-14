@@ -1,0 +1,9 @@
+.tagselect-container .tagselect-selected,
+.tagselect-container .tagselect-disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.tagselect-container .tagselect-disabled {
+    opacity: 0.5;
+}
